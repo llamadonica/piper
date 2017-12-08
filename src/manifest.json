@@ -1,0 +1,21 @@
+{
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "name": "Piper",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A simple port-forwarder that can be used to connect to other sites as though they were running on localhost",
+  "key": "mfaihdlpglflfgpfjcifdjdjcckigekd",
+  "sockets": {
+    "tcp": {
+      "connect": "*"
+    },
+    "tcpServer": {
+      "listen": "127.0.0.1:*"
+    }
+  }
+  
+}
